@@ -1,12 +1,6 @@
 import { memo } from "react";
 
 const HomePage = () => {
-  return (
-    <>
-      <Header />
-      <HomePage />
-      <Footer />
-    </>
-  );
+  return <h1>Homepage</h1>;
 };
 export default memo(HomePage);
