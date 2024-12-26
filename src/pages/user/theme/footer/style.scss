@@ -1,0 +1,45 @@
+.footer {
+  background-color: #004d25; /* Màu nền xanh lá */
+  color: white;
+  padding: 24px 15px;
+}
+
+.footer-container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 400px 1fr;
+  grid-gap: 30px;
+}
+.footer-col-g2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 30px;
+}
+.body a {
+  text-decoration: none;
+  color: white;
+}
+.item {
+  line-height: 30px;
+}
+.footer-col-g3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 30px;
+}
+.footer-col-g1 {
+  line-height: 28px;
+}
+.copyright {
+  display: flex;
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 10px;
+  justify-content: space-between;
+}
+.copyright svg {
+  color: #2d8f59;
+}
